@@ -8,4 +8,13 @@
 			<directory>src/main/java</directory>
 		</fileSet>
 	</fileSets>
+	
+	<requiredProperties>
+		<requiredProperty key="package">
+			<defaultValue>${groupId}</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="version">
+			<defaultValue>0.0.1-SNAPSHOT</defaultValue>
+		</requiredProperty>
+	</requiredProperties>
 </archetype-descriptor>
